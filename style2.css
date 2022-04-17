@@ -1,0 +1,366 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+.fas{
+ 
+  padding: 50px;
+  display: inline-flex;
+  bottom: 10px;
+  left: 50px;
+  right: 50px;
+   position: relative;
+   margin-right: 20px;
+   bottom: 40px;
+   color: white;
+}
+.search a{
+  font-size: 40px;
+  display: inline-flex;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  text-decoration: none;
+}
+.search input{
+height: 90px;
+  position: absolute;
+  width: 800px;
+  background-color: white;
+  top: 150px;
+  left: 50px;
+  border-radius: 20px;
+}
+.search h1{
+  position: absolute;
+  color: skyblue;
+  left: 20pc;
+  font-size:45px;
+  font-family: 'Times New Roman', Times, serif;
+  top: 60px;
+  
+}
+.search input::placeholder{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  left: 20px;
+  position: relative;
+}
+.search{
+  background-color:gray;
+  
+  height: 280px;
+  width: 1000px;
+}
+.searc fas{
+  height: 100px;
+  left: 100px;
+  position: absolute;
+}
+
+
+.slider-container{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden; 
+  text-align: center;
+  height: 1100px;
+  width: 700px;
+  padding-left: 50px;
+  margin-left: 50px;
+  left: 100px;
+  top: 50px;
+  border: 5px solid grey;
+  
+}
+
+.menu {
+  position: absolute;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  bottom: 0;
+}
+
+.menu label {
+  cursor: pointer;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50px;
+  margin: 0 .2em 1em;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 10;
+  padding: 8em 1em 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: left 0s .75s;
+  
+  
+}
+
+[id^="slide"]:checked + .slide {
+  left: 0;
+  z-index: 100;
+  transition: left .65s ease-out;
+}
+
+.slide-1 {
+  background-image: url(images/det1.jpg);
+}
+.slide-2 {
+  background-image: url(images/det.jpg);
+}
+.slide-3 {
+  background-image: url(images/det3.jpg);
+}
+
+.slide-3 {
+  background-image: url(images/b4.jpg);
+}
+.text_1 h1{
+  
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: deepskyblue;
+  left:10px;
+  bottom: 20px;
+  position: relative;
+}
+.text_1 h2{
+  font-size: 40px;
+  position: relative;
+  left: 20px;
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+.text_1 p{
+  font-size: 40px;
+  position: relative;
+  top: -40px;
+  
+}
+.offer{
+  background: linear-gradient(red, orange);
+  height:300px;
+  width: 300px;
+  border-radius: 150px;
+  box-shadow: 20px 20px 2px gray;
+}
+.offer h3{
+  font-size: 50px;
+  position: relative;
+  top: 80px;
+  left: 40px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*book details css */
+
+.tab1 table tr th {
+  font-size: 20px;
+  background-color: white;
+  height: 200px;
+  width: 500px;
+  font-size: 35px;
+  color: orange;
+  
+  
+}
+.tab1 table tr th:hover{
+  background-color: linen;
+  border: 5px red;
+  border-radius: 20px;
+}
+.tab1{
+  background-color: black;
+  position: absolute;
+  left:10px;
+  box-shadow: 20px 20px 0px gray;
+}
+
+.tab1 table tr th h4{
+  color: black;
+}
+/* book details */
+.op1 select{
+  position: relative;
+  height: 80px;
+  top: 450px;
+  width: 500px;
+  font-size: 30px;
+  left: 150px;
+  background-color: coral;
+  color: white;
+  
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.off{
+  position: relative;
+ top: 500px;
+ background-color: lightyellow;
+}
+.off h3{
+  position: relative;
+  
+
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  
+}
+.off h3 span{
+  color:red;
+ 
+}
+
+.arrow {
+  position: relative;
+  top: 500px;
+  background-color: black;
+  height: 10px;
+  left: 7px;
+  border-radius: 20px;
+}
+
+.down button {
+  height: 70px;
+  width: 250px;
+  font-size: 30px;
+  border-radius: 20px;
+background-color: orange;
+color: white;
+left: 500px;
+bottom: 30px;
+position: relative;
+}
+.down button:hover{
+  background-color: green;
+}
+.down select {
+  height: 70px;
+  width: 150px;
+  font-size: 30px;
+  border-radius: 50px;
+background-color: orange;
+color: white;
+left: 800px;
+bottom:30px;
+border-color: black;
+position: absolute;
+
+
+}
+.down{
+  position: relative;
+  bottom: 50px;
+  position: center;
+ 
+}
+.sang{
+  background-color: black;
+  position: relative;
+  height: 10px;
+  border-radius: 20px;
+  top: 500px;
+}
+.kori h1{
+  position: relative;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  color: deepskyblue;
+  top: 500px;
+  text-align: center;
+}
+.sanga p{
+  position: relative;
+  font-size: 35px;
+  top: 500px;
+  border-radius: 20px;
+  width: 250px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  box-shadow: 20px 20px 20px black;
+  
+  display: inline-flex;
+  padding: 30px;
+  margin: 10px;
+  background-color: grey;
+  animation-name: kori;
+  animation-iteration-count: initial;
+  animation-delay: 2s;
+  animation-direction: initial;
+  
+  
+}
+.sanga{
+  display: inline-flex;
+  position: relative;
+}
+@keyframes kori{
+  from{
+    background-color: red;
+    color: red;
+  }
+  to{
+    background-color: blue;
+    color: blue;
+  }
+}
+.line3{
+  background-color: black;
+  height: 10px;
+  position: relative;
+  border-radius: 20px;
+  top: 550px;
+}
+.amit {
+  position: relative;
+  top: 600px;
+}
+.amit p{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: red;
+  
+}
+.amit span{
+  color: deepskyblue;
+  font-size: 40px;
+}
+.pay button {
+  position: relative;
+  height: 100px;
+  width: 800px;
+  background-color: orange;
+ font-size: 40px;
+ font-family: 'Times New Roman', Times, serif;
+ color: white;
+ margin: 20px;
+ border-radius: 20px;
+ top: 600px;
+ left: 50px;
+}
+.line4{
+  background-color: black;
+  height: 5px;
+  position: relative;
+}

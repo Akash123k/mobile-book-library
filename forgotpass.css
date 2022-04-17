@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.neha h1{
+  font-size: 50px;
+  position: relative;
+  color: deepskyblue;
+  font-family: 'Times New Roman', Times, serif;
+  top: 120px;
+  left: 20px;
+  text-align: center;
+}
+.neha input{
+  height: 70px;
+  width: 600px;
+  position: relative;
+  border-radius: 20px;
+  display: table;
+  top: 200px;
+  left: 200px;
+  font-size: 30px;
+}
+.neha button{
+  position: relative;
+  height: 50px;
+  display: table;
+  width: 200px;
+  position: relative;
+  top: 230px;
+  left: 380px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.neha button:hover{
+  background-color: greenyellow;
+}

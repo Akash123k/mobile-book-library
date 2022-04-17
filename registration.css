@@ -1,0 +1,96 @@
+  .res1 h1{
+    
+    position: absolute;
+    font-size: 100px;
+    font-family: cursive;
+    left: 250px;
+    color: white;
+  }
+  
+.res1{
+  background-color: blue;
+  height: 1100px;
+  padding:0px;
+  margin: 100px;
+  width: 900px;
+  position: relative;
+  border-radius: 50px ;
+ right: 60px;
+ position: center;
+  
+}
+ .res1 input{
+    position: relative;
+    top: 200px;
+    left: 190px;
+    padding: 10px;
+    margin: 10px;
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    position: center;
+  }
+  
+  .res1 input::placeholder{
+    font-size: 30px;
+    
+  }
+  .res1 button{
+    position:relative;
+    height: 50px;
+    width: 150px;
+    top: 600px;
+    display: table;
+    top: 200px;
+    left: 600px;
+   border-radius: 20px;
+    
+  }
+  .res1 button h4{
+    position: relative;
+    font-size: 30px;
+    padding: 0;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  .res1 button:hover{
+    background-color: green;
+}
+   .foot{
+     background-color: whitesmoke;
+     width: 2000px;
+     position: relative;
+  
+   }
+   .newb button{
+     position: relative;
+     bottom: 350px;
+     left:350px;
+     width: 250px;
+     height: 70px;
+     border-radius: 20px;
+     background-color: orange;
+     font-size: 30px;
+   }
+   .line1 {
+     background-color:skyblue;
+     height: 5px;
+     position: relative;
+     bottom: 320px;
+     width: 880px;
+     left:50px;
+   }
+   .acc1 h1{
+     position: relative;
+     bottom: 300px;
+     text-align: center;
+     color: whitesmoke;
+     font-family: 'Times New Roman', Times, serif;
+   }
+   .acc1 span a {
+     font-size: 70px;
+     color: skyblue;
+     font-family: cursive;
+     text-decoration: none;
+   }
